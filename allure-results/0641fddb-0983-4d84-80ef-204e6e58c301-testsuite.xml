@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1748793346222' stop='1748793379894'>
+    <name>Add Ingredients Functionality Tests</name>
+    <title>Add Ingredients Functionality Tests</title>
+    <test-cases>
+        <test-case start='1748793346237' status='passed' stop='1748793353117'>
+            <name>should allow adding new ingredients</name>
+            <title>should allow adding new ingredients</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748793353134' status='failed' stop='1748793362553'>
+            <name>Should validate ingredient code format</name>
+            <title>Should validate ingredient code format</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find content: 'Ingredient code cannot contain spaces' but never did.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Ingredient code cannot contain spaces' but never did.
+                    at Context.eval (webpack://inventory_rsb/./cypress/e2e/new_ingredients.cy.js:89:61)
+                    at getRet (http://localhost/__cypress/runner/cypress_runner.js:119619:20)
+                    at tryCatcher (http://localhost/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise.attempt.Promise.try (http://localhost/__cypress/runner/cypress_runner.js:4285:29)
+                    at Context.thenFn (http://localhost/__cypress/runner/cypress_runner.js:119630:66)
+                    at Context.then (http://localhost/__cypress/runner/cypress_runner.js:119881:21)
+                    at wrapped (http://localhost/__cypress/runner/cypress_runner.js:140158:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1748793362604' status='passed' stop='1748793366437'>
+            <name>should validate quantity with invalid characters</name>
+            <title>should validate quantity with invalid characters</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748793366451' status='failed' stop='1748793370449'>
+            <name>should validate measurement with invalid characters</name>
+            <title>should validate measurement with invalid characters</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected '' to include 'Please match the requested format.'</message>
+                <stack-trace>AssertionError: expected '' to include 'Please match the requested format.'
+                    at Context.eval (webpack://inventory_rsb/./cypress/e2e/new_ingredients.cy.js:131:49)
+                    at getRet (http://localhost/__cypress/runner/cypress_runner.js:119619:20)
+                    at tryCatcher (http://localhost/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise.attempt.Promise.try (http://localhost/__cypress/runner/cypress_runner.js:4285:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1748793370494' status='failed' stop='1748793374412'>
+            <name>should validate date in with wrong date format</name>
+            <title>should validate date in with wrong date format</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected '' to include 'Invalid date format.'</message>
+                <stack-trace>AssertionError: expected '' to include 'Invalid date format.'
+                    at Context.eval (webpack://inventory_rsb/./cypress/e2e/new_ingredients.cy.js:156:49)
+                    at getRet (http://localhost/__cypress/runner/cypress_runner.js:119619:20)
+                    at tryCatcher (http://localhost/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise.attempt.Promise.try (http://localhost/__cypress/runner/cypress_runner.js:4285:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1748793374446' status='failed' stop='1748793378034'>
+            <name>should validate date in with wrong date format</name>
+            <title>should validate date in with wrong date format</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected '' to include 'Invalid date format.'</message>
+                <stack-trace>AssertionError: expected '' to include 'Invalid date format.'
+                    at Context.eval (webpack://inventory_rsb/./cypress/e2e/new_ingredients.cy.js:181:49)
+                    at getRet (http://localhost/__cypress/runner/cypress_runner.js:119619:20)
+                    at tryCatcher (http://localhost/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise.attempt.Promise.try (http://localhost/__cypress/runner/cypress_runner.js:4285:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1748793378072' status='passed' stop='1748793379894'>
+            <name>should validate empty field submission</name>
+            <title>should validate empty field submission</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

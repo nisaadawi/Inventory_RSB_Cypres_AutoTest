@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1748793161562' stop='1748793168819'>
+    <name>Login Functionality Tests</name>
+    <title>Login Functionality Tests</title>
+    <test-cases>
+        <test-case start='1748793161562' status='passed' stop='1748793166102'>
+            <name>should login successfully with valid credentials</name>
+            <title>should login successfully with valid credentials</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748793166125' status='passed' stop='1748793166958'>
+            <name>should display error on invalid email</name>
+            <title>should display error on invalid email</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748793166969' status='passed' stop='1748793167806'>
+            <name>should display error on invalid password</name>
+            <title>should display error on invalid password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748793167817' status='passed' stop='1748793168613'>
+            <name>should validate email format before submission</name>
+            <title>should validate email format before submission</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748793168625' status='passed' stop='1748793168819'>
+            <name>should validate empty field submission</name>
+            <title>should validate empty field submission</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

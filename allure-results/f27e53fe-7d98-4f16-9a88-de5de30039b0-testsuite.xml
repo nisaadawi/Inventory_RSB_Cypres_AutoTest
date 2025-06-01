@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1748791954876' stop='1748791971116'>
+    <name>Registration Page Tests</name>
+    <title>Registration Page Tests</title>
+    <test-cases>
+        <test-case start='1748791954876' status='passed' stop='1748791960176'>
+            <name>should validate valid inputs</name>
+            <title>should validate valid inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748791960193' status='failed' stop='1748791962232'>
+            <name>should validate full name with invalid characters</name>
+            <title>should validate full name with invalid characters</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected '' to equal 'Please match the requested format.'</message>
+                <stack-trace>AssertionError: expected '' to equal 'Please match the requested format.'
+                    at Context.eval (webpack://inventory_rsb/./cypress/e2e/register.cy.js:50:47)
+                    at getRet (http://localhost/__cypress/runner/cypress_runner.js:119619:20)
+                    at tryCatcher (http://localhost/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise.attempt.Promise.try (http://localhost/__cypress/runner/cypress_runner.js:4285:29)
+                    at Context.thenFn (http://localhost/__cypress/runner/cypress_runner.js:119630:66)
+                    at Context.then (http://localhost/__cypress/runner/cypress_runner.js:119881:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1748791962269' status='passed' stop='1748791963945'>
+            <name>should validate contact number with invalid characters</name>
+            <title>should validate contact number with invalid characters</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748791963959' status='passed' stop='1748791965742'>
+            <name>should select role</name>
+            <title>should select role</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748791965753' status='passed' stop='1748791967489'>
+            <name>should validate email format</name>
+            <title>should validate email format</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748791967501' status='passed' stop='1748791969227'>
+            <name>should validate password mismatch</name>
+            <title>should validate password mismatch</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748791969237' status='passed' stop='1748791970992'>
+            <name>should validate existing email</name>
+            <title>should validate existing email</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748791971007' status='passed' stop='1748791971116'>
+            <name>should validate empty field submission</name>
+            <title>should validate empty field submission</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,147 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1748793880463' stop='1748793913677'>
+    <name>Add supplier Functionality Tests</name>
+    <title>Add supplier Functionality Tests</title>
+    <test-cases>
+        <test-case start='1748793880477' status='passed' stop='1748793889740'>
+            <name>Test valid characters</name>
+            <title>Test valid characters</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748793889858' status='failed' stop='1748793893033'>
+            <name>should validate code with invalid name</name>
+            <title>should validate code with invalid name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your application code, not from Cypress.
+                
+                  > expected 'Error: Supplier with code "SUP004" already exists. Please use a unique code.' to include 'Error: Wromg name format.'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</message>
+                <stack-trace>AssertionError: The following error originated from your application code, not from Cypress.
+                
+                  > expected 'Error: Supplier with code "SUP004" already exists. Please use a unique code.' to include 'Error: Wromg name format.'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application
+                    at $Cy.eval (webpack://inventory_rsb/./cypress/e2e/supplier.cy.js:76:26)
+                    at EventEmitter.emit (http://localhost/__cypress/runner/cypress_runner.js:143262:19)
+                    at parent.&lt;computed> [as emit] (http://localhost/__cypress/runner/cypress_runner.js:142175:32)
+                    at $Cypress.action (http://localhost/__cypress/runner/cypress_runner.js:41670:21)
+                    at onAlert (http://localhost/__cypress/runner/cypress_runner.js:140561:27)
+                    at &lt;unknown> (http://localhost/inventory_rsb/supplier_actions.php?action=add:2:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1748793893081' status='passed' stop='1748793896141'>
+            <name>should validate code with existing code</name>
+            <title>should validate code with existing code</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748793896154' status='passed' stop='1748793898767'>
+            <name>should validate code with empty ingredient</name>
+            <title>should validate code with empty ingredient</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748793898780' status='passed' stop='1748793901933'>
+            <name>should validate contact with invalid contact</name>
+            <title>should validate contact with invalid contact</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1748793902042' status='failed' stop='1748793905309'>
+            <name>should validate price with invalid price</name>
+            <title>should validate price with invalid price</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your application code, not from Cypress.
+                
+                  > expected 'Contact number must be numeric.' to include 'Price cannot be negative'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</message>
+                <stack-trace>AssertionError: The following error originated from your application code, not from Cypress.
+                
+                  > expected 'Contact number must be numeric.' to include 'Price cannot be negative'
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application
+                    at $Cy.eval (webpack://inventory_rsb/./cypress/e2e/supplier.cy.js:158:26)
+                    at EventEmitter.emit (http://localhost/__cypress/runner/cypress_runner.js:143262:19)
+                    at parent.&lt;computed> [as emit] (http://localhost/__cypress/runner/cypress_runner.js:142175:32)
+                    at $Cypress.action (http://localhost/__cypress/runner/cypress_runner.js:41670:21)
+                    at onAlert (http://localhost/__cypress/runner/cypress_runner.js:140561:27)
+                    at &lt;unknown> (http://localhost/inventory_rsb/supplier_actions.php?action=add:1:1438)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1748793905338' status='broken' stop='1748793908013'>
+            <name>should validate measurement with invalid measurement</name>
+            <title>should validate measurement with invalid measurement</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'code')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'code')
+                    at Context.eval (webpack://inventory_rsb/./cypress/e2e/supplier.cy.js:166:52)
+                    at getRet (http://localhost/__cypress/runner/cypress_runner.js:119619:20)
+                    at tryCatcher (http://localhost/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise.attempt.Promise.try (http://localhost/__cypress/runner/cypress_runner.js:4285:29)
+                    at Context.thenFn (http://localhost/__cypress/runner/cypress_runner.js:119630:66)
+                    at Context.then (http://localhost/__cypress/runner/cypress_runner.js:119881:21)
+                    at wrapped (http://localhost/__cypress/runner/cypress_runner.js:140158:19)
+                    at &lt;unknown> (http://localhost/__cypress/runner/cypress_runner.js:146103:15)
+                    at tryCatcher (http://localhost/__cypress/runner/cypress_runner.js:1777:23)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1748793908045' status='failed' stop='1748793913675'>
+            <name>should validate measurement with empty inputs</name>
+            <title>should validate measurement with empty inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `supplier-code`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `supplier-code`, but never found it.
+                    at Context.eval (webpack://inventory_rsb/./cypress/e2e/supplier.cy.js:187:11)
+                    at getRet (http://localhost/__cypress/runner/cypress_runner.js:119619:20)
+                    at tryCatcher (http://localhost/__cypress/runner/cypress_runner.js:1777:23)
+                    at Promise.attempt.Promise.try (http://localhost/__cypress/runner/cypress_runner.js:4285:29)
+                    at Context.thenFn (http://localhost/__cypress/runner/cypress_runner.js:119630:66)
+                    at Context.then (http://localhost/__cypress/runner/cypress_runner.js:119881:21)
+                    at wrapped (http://localhost/__cypress/runner/cypress_runner.js:140158:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
