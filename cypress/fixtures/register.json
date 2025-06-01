@@ -1,37 +1,50 @@
-{
- "invalidFullname": {
-    "fullname": "Nisaa Dawi 123",
+{"validInput": {
+    "fullname": "Amanina Selamat",
     "contact": "0123456789",
-    "email": "wereenz0909@gmail.com",
-    "password": "Abc123?",
-    "cpassword": "Abc123?"
+    "email": "amanina1@gmail.com",
+    "password": "Pass123!",
+    "cpassword": "Pass123!"
+   },
+ "invalidFullname": {
+    "fullname": "Amanina Selamat 123",
+    "contact": "0123456789",
+    "email": "amanina1@gmail.com",
+    "password": "Pass123!",
+    "cpassword": "Pass123!"
    },
    "invalidContact": {
     "fullname": "Nisaa Dawi",
-    "contact": "0123456789abc",
-    "email": "wereenz0909@gmail.com",
-    "password": "Abc123?",
-    "cpassword": "Abc123?"
+    "contact": "23abc",
+    "email": "amanina1@gmail.com",
+    "password": "Pass123!",
+    "cpassword": "Pass123!"
    },
    "invalidRole": {
-    "fullname": "Nisaa Dawi",
+    "fullname": "Amanina Selamat",
     "contact": "0123456789",
-    "email": "wereenz0909@gmail.com",
-    "password": "Abc123?",
-    "cpassword": "Abc123?"
+    "email": "amanina1@gmail.com",
+    "password": "Pass123!",
+    "cpassword": "Pass123!"
    },
    "invalidEmail": {
-    "fullname": "Nisaa Dawi",
+    "fullname": "Amanina Selamat",
     "contact": "0123456789",
-    "email": "wereenz0909gmail.com",
-    "password": "Abc123",
-    "cpassword": "Abc123?"
+    "email": "amani na1@gmail.com",
+    "password": "Pass123!",
+    "cpassword": "Pass123!"
    },
    "passMismatch": {
-    "fullname": "Nisaa Dawi",
+    "fullname": "Amanina Selamat",
     "contact": "0123456789",
-    "email": "wereenz0909@gmail.com",
-    "password": "Abc124?",
-    "cpassword": "Abc123?"
+    "email": "amanina1@gmail.com",
+    "password": "Pass123!",
+    "cpassword": "Pass123?"
+   },
+   "existEmail": {
+    "fullname": "Amanina Selamat",
+    "contact": "0123456789",
+    "email": "amanina1@gmail.com",
+    "password": "Pass123!",
+    "cpassword": "Pass123!"
    }
 }

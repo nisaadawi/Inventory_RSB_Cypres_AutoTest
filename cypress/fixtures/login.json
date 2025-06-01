@@ -1,14 +1,18 @@
 {
   "validUser":{
-    "email": "wereen0909@gmail.com",
-    "password" : "Kndc1004?"
+    "email": "amanina1@gmail.com",
+    "password" : "Pass123!"
   },
-    "invalidUser":{
-    "email": "wereen0909@gmail.com",
-    "password" : "Kndc1004"
+  "invalidEmail":{
+    "email": "alexsmith@gmail.com",
+    "password" : "Pass123!"
   },
-   "invalidFormat":{
-    "email": "wereen0909gmail",
-    "password" : "Kndc1004?"
+    "invalidPassword":{
+    "email": "amanina1@gmail.com",
+    "password" : "wrongpassword"
+  },
+   "invalidEmailFormat":{
+    "email": "amani na@gmail.com",
+    "password" : "Pass123!"
    }
 }

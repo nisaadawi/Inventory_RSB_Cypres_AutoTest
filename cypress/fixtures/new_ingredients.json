@@ -7,8 +7,8 @@
       "datein": "2025-09-09",
       "expdate": "2025-10-09"
     },
-    "invalidInput": {
-      "code": "",
+    "invalidCode": {
+      "code": "ING 001",
       "name": "TEPUNG PULUT",
       "quantity": "100",
       "measurement": "KG",

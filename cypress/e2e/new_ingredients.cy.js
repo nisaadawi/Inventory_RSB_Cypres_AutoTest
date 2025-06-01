@@ -64,15 +64,15 @@ describe('Add Ingredients Functionality Tests', () => {
       });
     
 
-      it('Should validate ingredient code with empty input', () => {
+      it('Should validate ingredient code format', () => {
         cy.fixture('new_ingredients').then((data) => {
-          const d = data.invalidInput;
+          const d = data.invalidCode;
       
           // Fill out the form
           cy.get('select[name="category"]').select('Dry Ingredient');
           
           // Clear the ingredient code field without typing anything
-          cy.get('input[name="ingredient_code"]').clear();
+          cy.get('input[name="ingredient_code"]').type(d.name);
           
           // Fill other required fields
           cy.get('input[name="ingredient_name"]').type(d.name);
@@ -85,9 +85,13 @@ describe('Add Ingredients Functionality Tests', () => {
           // Submit the form
           cy.contains('Save').click();
 
+           // Add assertion for success message
+        cy.contains('Ingredient code cannot contain spaces').should('be.visible');
+
          });
       });
-       it('should validate quantity with invalid characters', () => {
+
+      it('should validate quantity with invalid characters', () => {
       
       cy.fixture('new_ingredients').then((data) => {
         const d = data.invalidQuantity;
@@ -180,6 +184,16 @@ describe('Add Ingredients Functionality Tests', () => {
         });
       });
     });
+     
+    it('should validate empty field submission', () => {
+    // Click the submit button to trigger native validation
+    cy.get('button[type="submit"]').click();
 
-   
+    /// Verify the select field shows validation error
+      cy.get('select[name="category"]').then(($select) => {
+        expect($select[0].validationMessage).to.contain(
+          'Please select an item in the list'
+        );
+      });
+    });
   });

@@ -1,10 +1,33 @@
 {
+  "invalidName": {
+      "code": "SUP004",
+      "name": "SUPPLIER@#$ABC",
+      "contact": "0123456789",
+      "price": "1000",
+      "ingredient": "Tepung",
+      "measurement": "KG"
+    },
+    "invalidCode": {
+      "code": "SUP004",
+      "name": "SUPPLIER ABC",
+      "contact": "0123456789",
+      "price": "1000",
+      "ingredient": "Tepung",
+      "measurement": "KG"
+    },
     "validInput": {
       "code": "SUP004",
       "name": "SUPPLIER ABC",
       "contact": "0123456789",
       "price": "1000",
       "ingredient": "Tepung",
+      "measurement": "KG"
+    },
+    "emptyIngredient": {
+      "code": "SUP003",
+      "name": "SUPPLIER ABC",
+      "contact": "abc",
+      "price": "1000",
       "measurement": "KG"
     },
     "invalidContact": {
