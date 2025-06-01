@@ -1,0 +1,50 @@
+{
+    "validInput": {
+      "code": "TEPUL004",
+      "name": "TEPUNG PULUT",
+      "quantity": "100",
+      "measurement": "KG",
+      "datein": "2025-09-09",
+      "expdate": "2025-10-09"
+    },
+    "invalidInput": {
+      "code": "",
+      "name": "TEPUNG PULUT",
+      "quantity": "100",
+      "measurement": "KG",
+      "datein": "2025-09-09",
+      "expdate": "2025-10-09"
+    },
+    "invalidQuantity": {
+       "code": "TEPUL004",
+       "name": "TEPUNG PULUT",
+       "quantity": "100kg",
+       "measurement": "KG123",
+       "datein": "2025-09-09",
+       "expdate": "2025-10-09"
+      },
+    "invalidMeasurement": {
+       "code": "TEPUL004",
+       "name": "TEPUNG PULUT",
+       "quantity": "100",
+       "measurement": "KG123@",
+       "datein": "2025-09-09",
+       "expdate": "2025-10-09"
+      },
+      "invalidDateinFormat": {
+       "code": "TEPUL004",
+       "name": "TEPUNG PULUT",
+       "quantity": "100",
+       "measurement": "KG123",
+       "datein": "2025-09-32",
+       "expdate": "2025-10-09"
+      },
+      "invalidExpDateFormat": {
+       "code": "TEPUL004",
+       "name": "TEPUNG PULUT",
+       "quantity": "100",
+       "measurement": "KG123",
+       "datein": "2025-09-09",
+       "expdate": "2025-10-32"
+      }
+    }

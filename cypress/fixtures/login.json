@@ -1,0 +1,14 @@
+{
+  "validUser":{
+    "email": "wereen0909@gmail.com",
+    "password" : "Kndc1004?"
+  },
+    "invalidUser":{
+    "email": "wereen0909@gmail.com",
+    "password" : "Kndc1004"
+  },
+   "invalidFormat":{
+    "email": "wereen0909gmail",
+    "password" : "Kndc1004?"
+   }
+}

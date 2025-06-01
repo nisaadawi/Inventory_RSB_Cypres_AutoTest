@@ -1,0 +1,37 @@
+{
+ "invalidFullname": {
+    "fullname": "Nisaa Dawi 123",
+    "contact": "0123456789",
+    "email": "wereenz0909@gmail.com",
+    "password": "Abc123?",
+    "cpassword": "Abc123?"
+   },
+   "invalidContact": {
+    "fullname": "Nisaa Dawi",
+    "contact": "0123456789abc",
+    "email": "wereenz0909@gmail.com",
+    "password": "Abc123?",
+    "cpassword": "Abc123?"
+   },
+   "invalidRole": {
+    "fullname": "Nisaa Dawi",
+    "contact": "0123456789",
+    "email": "wereenz0909@gmail.com",
+    "password": "Abc123?",
+    "cpassword": "Abc123?"
+   },
+   "invalidEmail": {
+    "fullname": "Nisaa Dawi",
+    "contact": "0123456789",
+    "email": "wereenz0909gmail.com",
+    "password": "Abc123",
+    "cpassword": "Abc123?"
+   },
+   "passMismatch": {
+    "fullname": "Nisaa Dawi",
+    "contact": "0123456789",
+    "email": "wereenz0909@gmail.com",
+    "password": "Abc124?",
+    "cpassword": "Abc123?"
+   }
+}
